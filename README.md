@@ -3,9 +3,6 @@
 **A python program that can solve 6x6 Calcudoku grids**
 
 
-
-[TOC]
-
 ## Calcudoku/Sudoku Rules
 **Add later if bothered ¯\\\_(ツ)\_/¯**
 
