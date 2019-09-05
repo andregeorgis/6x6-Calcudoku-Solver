@@ -21,3 +21,9 @@ We then start the first stage of solving which is filtering cage possibilities a
 
 An "equilibrium" is a term I have used for whenever a grid has multiple cages each with more than 1 solution (i.e. we have a bunch of cages with a bunch of solutions each and the program currently cannot decide which is the right one). So from here the program begins to "guess" the right solution. The program picks a cage and iterates through each of its possibilities, each time forcing the cage to have that possibility as its only solution. So it adds this "solution" to the grid and then repeats the process before. If one of the other cages ends up with 0 solutions then we have "guessed" wrong and iterate to the next possibility. If the grid gets solved then yay! Sometimes, we hit another "equilibrium" so we need to grab another cage and start guessing with that one. If the grid is solvable this program should exit before this process "ends" - hence if it does end then we can conclude that the grid was unsolvable.
 
+## Notes
+- This code was initially for a challenge as part of a University course; hence coding style in this program attempted to mimic the coding style taught as much as possible
+  - No complex "pythonic" code like lamda functions
+  - Only module used is "sys"
+  - Was meant to not use "for" loops but gave up :stuck_out_tongue:
+
